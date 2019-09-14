@@ -60,6 +60,7 @@ export default class ActionButton extends Component {
     return [styles.overlay, styles.actionContainer, {
       alignItems,
       justifyContent,
+      marginBottom: 40
     }];
   }
   getActionsStyle() {
